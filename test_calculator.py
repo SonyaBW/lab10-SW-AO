@@ -1,9 +1,10 @@
-import unittest
-from calculator import *
-
 # https://github.com/SonyaBW/lab10-SW-AO.git
 # Partner 1: Sonya Wong
 # Partner 2: Ahmad Osman
+
+import unittest
+from calculator import *
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
