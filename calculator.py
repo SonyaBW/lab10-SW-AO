@@ -1,3 +1,7 @@
+# https://github.com/SonyaBW/lab10-SW-AO.git
+# Partner 1: Sonya Wong
+# Partner 2: Ahmad Osman
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
