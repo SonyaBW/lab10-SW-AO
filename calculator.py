@@ -8,35 +8,29 @@ One function per operation, in order.
 import math
 
 def square_root(a):
-    try:
-        math.sqrt(a) # raise ValueError if a < 0
-    except ValueError as e:
-        print(e)
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
-    try:
-        math.hypot(a, b) # can have negative nums
-    except ValueError as e:
-        print(e)
+    return math.hypot(a, b)
 
 def add(a, b):
-    a + b
+    return a + b
 
 def subtract(a, b):
-    a - b
+    return a - b
 
 def multiply(a, b):
-    a * b
+    return a * b
 
 def divide(a, b):
     if a == 0:
         raise ZeroDivisionError
-    b / a   # raise ZeroDivisionError if a == 0
+    return b / a   # raise ZeroDivisionError if a == 0
 
 def logarithm(a, b):
     if b <= 0:
         raise ValueError
-    math.log(a,b)# use math library/raise ValueError
+    return math.log(a,b)# use math library/raise ValueError
 
 def exponent(a, b):
-    a**b
+    return a**b
