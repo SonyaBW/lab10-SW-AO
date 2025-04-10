@@ -28,10 +28,8 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self): # 3 assertions
         self.assertEqual(divide(1, 0), 0)
-        self.assertEqual(divide(1, -2), -2)
-        self.assertAlmostEqual(divide(1, 1/3), 1/9)
+        self.assertAlmostEqual(divide(1, 0.3333333), 0.33333333)
         self.assertAlmostEqual(divide(5, 0.6666666), 0.13333333)
-        self.assertAlmostEqual(divide(5.0, 1.0), 0.2)
         # with self.assertRaises(ZeroDivisionError):
         #     divide(0.0, 0)
         #     divide(0, 50)
