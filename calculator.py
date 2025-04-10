@@ -5,9 +5,6 @@ calculator.py
 One function per operation, in order.
 """
 # First example
-def add(a, b): 
-    pass
-
 import math
 
 def add(a, b):
@@ -24,7 +21,6 @@ def divide(a, b):
 
 def logarithm(a, b):
     math.log(a,b)# use math library/raise ValueError
-
 
 def exponent(a, b):
     a**b
